@@ -1,4 +1,4 @@
-Burger Logger
+# Burger Logger
 
 ![License Badge](https://img.shields.io/badge/lisence-GPL%20v3.0-green)
 

@@ -1,7 +1,7 @@
 var express = require("express");
 var router = express.Router();
 
-var cat = require("../models/burger.js");
+var burger = require("../models/burger.js");
 
 router.get("/", function(req, res) {
   burger.all(function(data) {
@@ -15,7 +15,7 @@ router.get("/", function(req, res) {
 
 router.post("/api/burgers", function(req, res) {
   burger.create([
-    "name", "hamburger"
+    "burger_name", "devoured"
   ], [
     req.body.name, req.body.hamburger
   ], function(result) {
@@ -28,8 +28,8 @@ router.put("/api/burgers/:id", function(req, res) {
 
   console.log("condition", condition);
 
-  cat.update({
-    hamburger: req.body.hamburger
+  burger.update({
+    devoured: req.body.devoured
   }, condition, function(result) {
     if (result.changedRows == 0) {
       return res.status(404).end();

@@ -1,26 +1,27 @@
-<img src="/assets/img/burger.png" alt="burger" />
+<img id"burger" src="/assets/img/burger.png" alt="burger" />
 
 <h1>Eat-Da-Burger</h1>
 
-<h2>Burgers that are ready to eat!</h2>
-
-<ul>
-  {{#each burgers}}
-    {{#unless devoured}}
-      {{> burgers/burger-block devoured=true}}
-    {{/unless}}
-  {{/each}}
-</ul>
-
-<h2>Devoured burgers!</h2>
-
-<ul>
-  {{#each burgers}}
-    {{#if devoured}}
-      {{> burgers/burger-block devoured=false}}
-    {{/if}}
-  {{/each}}
-</ul>
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h2>Burgers that are ready to eat!</h2>
+      {{#each burgers}}
+        {{#unless devoured}}
+          {{> burgers/burger-block devoured=true}}
+        {{/unless}}
+      {{/each}}
+    </div>
+    <div class="col">
+      <h2>Devoured burgers!</h2>
+      {{#each burgers}}
+        {{#if devoured}}
+          {{> burgers/burger-block devoured=false}}
+        {{/if}}
+      {{/each}}
+    </div>
+  </div>
+</div>
 
 <h2>Add a Burger</h2>
 <form class="create-form">

@@ -1,3 +1,12 @@
+body {
+  background-color: #FAD26C;
+  text-align: center;
+}
+
+h1 {
+  color: brown;
+}
+
 li {
   padding: 5px;
   margin: 5px;

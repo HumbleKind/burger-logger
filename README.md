@@ -3,16 +3,22 @@
 ![License Badge](https://img.shields.io/badge/lisence-GPL%20v3.0-green)
 
 ## Description
-Eat-Da-Burger! is a restaurant app that lets users input and 'consume' burgers that they'd like to eat. Whenever a user submits a burger's name, the app will display the burger on the left side of the page -- waiting to be devoured. Each burger in the waiting area also has a `Devour it!` button. When the user clicks it, the burger will move to the right side of the page.
+Eat-Da-Burger! is a restaurant app that lets users input and 'consume' burgers that they'd like to eat.
 
-Following the MVC (Model-View-Controller) design pattern, this "Burger Logger" app, which is deployed using Heroku, uses Node and MySQL to query and route user input data, and Handlebars to generate the respective HTML, via the Express server framework, and a homemade ORM (Object-Relational Mapping).
+TECHNOLOGIES: MVC, ORM, MySQL, Sequelize Schema, Handlebars, Node, Express, Handlebars, Heroku
 
 ## Table of Contents
-* [Installation](#installation)
-* [Usage](#usage)
+* [Summary](#summary)
+* [Deployed](#deployed)
+* [Images](#images)
 * [License](#license)
 * [Contributing](#contributing)
 * [Questions](#questions)
+
+## Summary
+Whenever a user submits a burger's name, the app will display the burger on the left side of the page -- waiting to be devoured. Each burger in the waiting area also has a `Devour it!` button. When the user clicks it, the burger will move to the right side of the page.
+
+Following the MVC (Model-View-Controller) design pattern, this "Burger Logger" app, which is deployed using Heroku, uses Node and MySQL to query and route user input data, and Handlebars to generate the respective HTML, via the Express server framework, and a homemade ORM (Object-Relational Mapping).
 
 ## Installation
 [Burger Logger App Link](https://rocky-journey-33890.herokuapp.com/)

@@ -20,10 +20,10 @@ Whenever a user submits a burger's name, the app will display the burger on the 
 
 Following the MVC (Model-View-Controller) design pattern, this "Burger Logger" app, which is deployed using Heroku, uses Node and MySQL to query and route user input data, and Handlebars to generate the respective HTML, via the Express server framework, and a homemade ORM (Object-Relational Mapping).
 
-## Installation
+## Deployed
 [Burger Logger App Link](https://rocky-journey-33890.herokuapp.com/)
 
-## Usage
+## Images
 ![Burger Logger](screen-shot_1.png)
 
 ## License
